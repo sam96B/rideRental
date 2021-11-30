@@ -1,0 +1,180 @@
+
+
+
+
+
+
+<section class="py-1 row pb-5   ">
+    <div class="col-12 d-flex flex-column align-items-center">
+        <h1 style="color: #cd7373;" class="mx-auto">Bicycles</h1>
+        <hr style="color: wheat" width="250px">
+    </div>
+
+    <div class="col-5 col-md-3 mt-5 d-flex flex-column border border-secondary rounded align-items-center">
+
+
+        <div class="w-100 d-flex flex-column flex-lg-row justify-content-between my-3">
+            <div class=" d-flex align-items-center rounded-2 myDIV justify-content-between"
+                style="background-color:#343434;">
+                <label class="m-0 " style="color: white" for="dropOff">Pick Up</label>
+                <input type="date" id="pickup" name="birthday" class=""
+                    style="background-color:#343434; width:45px;border-width:0;padding:0">
+            </div>
+            <div class=" d-flex align-items-end rounded-2 myDIV mt-2 mt-lg-0 justify-content-between"
+                style="background-color:#343434;">
+                <label class="m-0 " style="color: white" for="dropOff">Drop Off</label>
+                <input type="date" id="dropOff" name="birthday" class=""
+                    style="background-color:#343434; width:45px;border-width:0;padding:0">
+            </div>
+
+
+        </div>
+
+
+        <div class="myDIV  rounded-3 px-2" style="background-color: #343434;color:white;width:105px ">
+
+
+            <div class="form-check" style="display: inline-block;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    0 &nbsp - 10 ₪
+                </label>
+            </div>
+            <div class="form-check" style="display: inline-block;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    11 - 20 ₪
+                </label>
+            </div>
+            <div class="form-check" style="display: inline-block;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                <label class="form-check-label" for="flexRadioDefault3">
+                    21 - 30 ₪
+                </label>
+            </div>
+            <div class="form-check" style="display: inline-block;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                <label class="form-check-label" for="flexRadioDefault4">
+                    31 - 40 ₪
+                </label>
+            </div>
+            <div class="form-check" style="display: inline-block;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" checked>
+                <label class="form-check-label" for="flexRadioDefault5">
+                    41 - 50 ₪
+                </label>
+            </div>
+
+
+
+        </div>
+        <button class="btn btn-outline-light my-2">Search</button>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</section>
+<hr style="color: wheat">
+
+<div class="container py-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4  g-5 ">
+        <div class="col ">
+            <div class="card  bg-secondary hvr-float myDIV " style="display: block">
+
+                <div class="card-img-top shadow item"
+                    style="height:225px;background-size: 100% 225px;;background-image: url(img/bicycles/1.jpg);">
+
+
+                    <div class="cover">
+                        <div id="by1" class="d-flex justify-content-center align-items-center"
+                            style="height:100%;width:100%">
+
+
+                            <div class="bg-dark shadow rounded-1 d-inline-flex">
+
+                                <button class="btn btn-outline-light p-1" onclick="minus(1)">-</button>
+                                <span class="total-of-items badge mx-1 py-0 shadow"
+                                    style="line-height: 2;font-size: large;">0</span>
+                                <button class="btn btn-outline-light p-1" onclick="plus(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               
+
+                <div class="card-body w-100 p-1 badge bg-dark rounded-pill my-1 align-items-center d-flex flex-column">
+                    <div class=" d-flex justify-content-between align-items-center  m-2 w-75 ">
+                        <strong>Charge</strong>
+                       <div><span id="charge1">15 </span>
+                        ₪ / hr</div> 
+                    </div>
+                    
+                    <div class=" d-flex justify-content-between align-items-center py-2 w-75 border-top">
+                        <strong>Available</strong>
+                        <span class="">9</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col ">
+            <div class="card myDIV bg-secondary hvr-float " style=" display: block;">
+
+                <div class="card-img-top shadow item"
+                    style="height:225px;background-size: 100% 225px;;background-image: url(img/bicycles/2.jpg);">
+
+
+                    <div class="cover">
+                        <div id="by2" class="d-flex justify-content-center align-items-center"
+                            style="height:100%;width:100%">
+
+
+                            <div class="bg-dark shadow rounded-1 d-inline-flex">
+
+                                <button class="btn btn-outline-light p-1" onclick="minus(2)">-</button>
+                                <span class="total-of-items badge mx-1 py-0 shadow"
+                                    style="line-height: 2;font-size: large;">0</span>
+                                <button class="btn btn-outline-light p-1" onclick="plus(2)">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-body w-100 p-1 badge bg-dark rounded-pill my-1 align-items-center d-flex flex-column">
+                    <div class=" d-flex justify-content-between align-items-center  m-2 w-75 ">
+                        <strong>Charge</strong>
+                       <div><span id="charge2">20 </span>
+                        ₪ / hr</div> 
+                    </div>
+                    
+                    <div class=" d-flex justify-content-between align-items-center py-2 w-75 border-top">
+                        <strong>Available</strong>
+                        <span class="">5</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/type_number_js.js"></script>
