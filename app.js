@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 
 app.get("/", (req, res) => {
-    res.render("main",{layout:false});
+    res.render("index",{layout:false});
   });
 
 
